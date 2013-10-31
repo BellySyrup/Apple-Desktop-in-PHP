@@ -1,0 +1,101 @@
+body {
+	font: 11px Arial, Helvetica, sans-serif;
+	background: #ffffff url(images/aurora.jpg) fixed;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+img {
+	border: none;
+}
+#header{
+	height: 20px;
+	background: url('images/header.png');
+}
+#logo{
+	margin: 1px 3px 0px 3px;
+}
+#content{
+	width: 800px;
+	margin: 50px auto;
+}
+/* dock - top */
+.dock {
+	position: relative; 
+	height: 50px; 
+	text-align: center;
+}
+.dock-container {
+	position: absolute;
+	height: 50px;
+	background: url(images/dock-bg2.gif);
+	padding-left: 20px;
+}
+a.dock-item {
+	display: block;
+	width: 40px;
+	color: #000;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.dock-item img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+.dock-item span {
+	display: none; 
+	padding-left: 20px;
+}
+
+/* dock2 - bottom */
+#dock2 {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+}
+.dock-container2 {
+	position: absolute;
+	height: 50px;
+	background: url(images/dock-bg.gif);
+	padding-left: 20px;
+}
+a.dock-item2 {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 40px; 
+	color: #000; 
+	bottom: 0px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+#login{
+	background: url("./images/loginlogo.png") center no-repeat #eeeeee;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+}
+#loginlogo{
+	background: url("./images/logoloading.gif") center no-repeat;
+	padding-top: 150px;
+	height: 100%;
+	width: 100%;
+}

@@ -1,0 +1,12 @@
+#finder{
+	display: none;
+	margin-left: 66px;
+}
+#finderBlurb{
+	top: 225px;
+	margin-left: 325px;
+}
+#finderBlurb p{
+	padding: 10px;
+	font-size: smaller;
+}

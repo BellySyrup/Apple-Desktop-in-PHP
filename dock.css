@@ -1,0 +1,10 @@
+
+#dockright{
+	background : url('dock-right-80.png') no-repeat right 129px;
+}
+#dockleft{
+	background : url('dock-left-80.png') no-repeat left 129px;
+  height     : 176px;
+  overflow   : hidden;
+  padding    : 0 20px;
+}

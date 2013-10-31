@@ -1,0 +1,26 @@
+#welcome{
+	width: 800px;
+	background: black;
+	border-radius: 5px;
+	color: white;
+	font-family: sans-serif;
+	opacity: 0.8;
+	margin: auto;
+	padding: 10px;
+	font-size: larger;
+}
+#welcome h1, h3{
+	text-align: center;
+	margin: auto;
+}
+.smaller{
+	font-size: 8px;
+	text-align: center;
+}
+hr{
+	color: yellow;
+	background-color: yellow;
+}
+#mid{
+	padding-left: 50px;
+}
